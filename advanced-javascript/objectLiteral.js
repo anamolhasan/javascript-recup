@@ -7,8 +7,12 @@ let greet = function(){
 const myObject = {
     firstName: firstName,
     institute: institute,
-    greet: greet
+    greet(){
+        console.log(`${firstName} make programming video for ${institute}`)
+    }
 }
 
-console.log(myObject)
+myObject[playList] = "Advance Javascript"
+
+console.log(Object.values(myObject))
 
