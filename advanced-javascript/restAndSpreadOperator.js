@@ -38,7 +38,7 @@ array.push('school')
 
 
 function sumOfAllNum(...numbers){
-    return numbers.reduce((num, currentValue) => num + currentValue)
+    return numbers.reduce((num, currentValue) => num + currentValue, 0)
 }
 
 console.log(sumOfAllNum(2, 3, 5, 6))
